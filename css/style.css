@@ -1,0 +1,15 @@
+@import url("reset.css");
+@import url("variables.css");
+
+/* components */
+@import url("screens/welcome.css");
+
+/* screens */
+
+* {
+  box-sizing: border-box;
+}
+
+input {
+  outline: none;
+}

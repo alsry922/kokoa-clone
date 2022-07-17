@@ -1,0 +1,131 @@
+.welcome-screen {
+  background-color: var(--yellow);
+}
+
+.welcome-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.welcome-nav__icon {
+  margin: 1rem;
+  color: var(--font-transparency);
+  cursor: pointer;
+}
+
+.welcome-nav__icon:nth-child(2) {
+  margin: 0;
+}
+
+.welcome-nav__icon:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0;
+}
+
+.pipe,
+.minimize {
+  background-color: var(--font-transparency);
+}
+
+.pipe {
+  height: 1rem;
+  width: 1px;
+  cursor: auto;
+}
+
+.minimize {
+  height: 2px;
+  width: 1rem;
+}
+
+.welcome-nav__icon:hover {
+  color: black;
+}
+
+.minimize:hover {
+  background-color: black;
+}
+
+.welcome-header {
+  display: flex;
+  justify-content: center;
+  margin: 60px 0;
+}
+
+.welcome-header__icon {
+  width: 150px;
+  height: 150px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form input {
+  border: none;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: var(--font-semibold);
+}
+
+.login-form input:not([type="checkbox"]) {
+  padding: 1rem;
+  width: 70%;
+  height: 48px;
+  font-size: 1rem;
+}
+
+.login-form .login__id {
+  border-bottom: 1px solid var(--yellow);
+}
+.login-form .login__password {
+  margin-bottom: 16px;
+}
+
+.login-form input::placeholder {
+  font-size: 0.8rem;
+}
+
+.login-form .login__submit {
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.login__auto {
+  width: 70%;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: var(--font-semibold);
+  display: flex;
+  align-items: center;
+}
+
+.login__auto input,
+.login__auto label {
+  cursor: pointer;
+}
+
+.welcome-footer {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 0.8rem;
+  font-weight: var(--font-semibold);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.welcome-footer .pipe {
+  margin: 0 1rem;
+}
+
+.welcome-footer span {
+  cursor: pointer;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/9d65493088.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Kokoa Clone</title>
+  </head>
+  <body class="welcome-screen">
+    <nav class="welcome-nav">
+      <span class="welcome-nav__icon">
+        <i class="fa-solid fa-gear"></i>
+      </span>
+      <span class="welcome-nav__icon">
+        <div class="pipe"></div>
+      </span>
+      <span class="welcome-nav__icon">
+        <div class="minimize"></div>
+      </span>
+      <span class="welcome-nav__icon">
+        <i class="fa-solid fa-xmark"></i>
+      </span>
+    </nav>
+    <header class="welcome-header">
+      <img class="welcome-header__icon" src="images/kakao-talk.png" alt="" />
+    </header>
+    <form action="friends.html" class="login-form">
+      <input
+        class="login__id"
+        type="text"
+        placeholder="카카오계정 (이메일 또는 전화번호)"
+      />
+      <input class="login__password" type="password" placeholder="비밀번호" />
+      <input class="login__submit" type="submit" value="로그인" />
+      <div class="login__auto">
+        <input type="checkbox" id="auto-login" />
+        <label for="auto-login">자동로그인</label>
+      </div>
+    </form>
+    <footer class="welcome-footer">
+      <span>카카오계정 찾기</span>
+      <div class="pipe"></div>
+      <span>비밀번호 재설정</span>
+    </footer>
+  </body>
+</html>
